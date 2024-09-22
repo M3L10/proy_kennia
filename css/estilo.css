@@ -1,0 +1,55 @@
+/* CSS Document */
+
+header.cabecera{
+	position:absolute;
+	top:10px;
+	left:1%;
+	width:99%;
+	height:104px;
+	color:#009966;
+	background:#456789 url(../imagenes/fondo1.jpg);
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+nav.izq{
+	position:absolute;
+	top:160px;
+	left:1%;
+	width:20%;
+	height:90%;
+	background:#CC1253;
+	border:5 solid color:white;
+}
+
+div.cuerpo{
+	position:absolute;
+	top:160px;
+	left:20.5%;
+	width:62%;
+	height:90%;
+	background:#CC00C2;
+}
+
+nav.der{
+	position:absolute;
+	top:160px;
+	left:81%;
+	width:19%;
+	height:90%;
+	background:#CC1253;
+	border:5 solid color:white;
+}
+footer.pie{
+	position:absolute;
+	top:calc(115vh - 0.0px);
+	left:1%;
+	width:99%;
+	height:25%;
+	color:#white;
+	background:#007ACC;
+	border:5 solid color:#456789;
+}
